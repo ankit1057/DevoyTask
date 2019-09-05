@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PhoneValidationActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Android Technical Task"
+    android:layout_marginTop="20dp"
+    android:textSize="20sp"
+    android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:inputType="phone"
+        android:textSize="20sp"
+        android:id="@+id/etPhone"
+        android:hint="Enter Phone Number"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#3399ff"
+        android:text="Verify"
+        android:id="@+id/btnVerify"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        />
+</RelativeLayout>
